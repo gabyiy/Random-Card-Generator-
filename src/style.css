@@ -1,1 +1,27 @@
 @import "~bootstrap/dist/css/bootstrap.min.css";
+body {
+  background-color: green !important;
+}
+
+.type {
+  font-size: 700%;
+}
+.num {
+  font-size: 400%;
+
+  height: 10%;
+}
+.rev {
+  transform: rotateX(180deg) rotateY(180deg);
+  padding-left: 10px;
+}
+
+.card {
+  margin: 0 auto; /* Added */
+  float: none; /* Added */
+  margin-bottom: 10px; /* Added */
+  background-color: red;
+  height: 35rem;
+  margin-top: 1rem;
+  border-radius: 15px !important;
+}
